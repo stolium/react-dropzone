@@ -373,7 +373,7 @@ class Dropzone extends React.Component {
     const inputAttributes = {
       accept,
       disabled,
-      type: 'file',
+      type: 'text',
       style: { display: 'none' },
       multiple: supportMultiple && multiple,
       ref: this.setRefs,
